@@ -1,0 +1,6 @@
+@import url("../fonts/stylesheet.css"); /*font*/
+@import url("nullstyle.css"); /*null stale*/
+@import url("generalstyle.css"); /*body,wrapper,background,h1,h2*/
+@import url("header.css"); /*header*/
+@import url("main.css"); /*main*/
+@import url("footer.css"); /*footer*/

@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+}
+.wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+}
+.background {
+	position: absolute;
+	width: 1440px;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.background__fon {
+	top: 0;
+	left: 0;
+	width: 1440px;
+}
+.background__logo {
+	position: absolute;
+	top: 350px;
+	left: 700px;
+	width: 525px;
+	height: 417.5px;
+}
+
+h1 {
+	font-family: "Geometria";
+	font-style: normal;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 81px;
+	color: #ffffff;
+}
+h2 {
+	font-family: "Geometria";
+	font-style: normal;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ffffff;
+}
