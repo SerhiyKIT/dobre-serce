@@ -5,6 +5,7 @@ header {
 	grid-template-columns: 15% 60% 25%;
 	z-index: 10;
 	color: white;
+	position: relative;
 }
 .header__left-block {
 	display: flex;
@@ -632,8 +633,6 @@ header {
 	background: rgba(197, 213, 230, 0.5);
 	backdrop-filter: blur(27.1828px);
 	position: absolute;
-	top: -670px;
-	left: 15px;
 }
 
 .search-icon.open .search-icon__glass {
@@ -649,11 +648,16 @@ header {
 	transform: rotate(90deg);
 }
 .search__block {
-	width: 1380px;
-	height: 800px;
+	margin-top: 50px;
+	width: 1370px;
+	min-height: 360px;
 	background: rgba(197, 213, 230, 0.5);
 	backdrop-filter: blur(27.1828px);
+	border-radius: 10px;
 	display: none;
+}
+.open .search__block {
+	display: block;
 }
 .search__block:target {
 	display: block;
