@@ -64,6 +64,7 @@ header {
 	background: linear-gradient(270deg, #6082d7 -81.69%, #e73453 100%);
 	outline: 0;
 	border-radius: 15px;
+	white-space: nowrap;
 }
 
 .tabs ul li label {
@@ -75,7 +76,6 @@ header {
 	display: block;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
-	white-space: nowrap;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
