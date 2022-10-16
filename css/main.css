@@ -524,8 +524,7 @@ main {
 	height: 24px;
 	margin: 10px 15px 0px 0px;
 }
-.banks__block-duo-img img {
-}
+
 .tabs-banks input[name="tab-banks"]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
 	background: #9c5d9a;
 }

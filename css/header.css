@@ -593,6 +593,11 @@ header {
 }
 
 .search-icon__input::placeholder {
+	font-family: "Geometria";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
 	color: #2e3f69;
 	text-align: start;
 }
@@ -648,17 +653,64 @@ header {
 	transform: rotate(90deg);
 }
 .search__block {
-	margin-top: 50px;
+	margin: 50px 0px;
 	width: 1370px;
-	min-height: 360px;
-	background: rgba(197, 213, 230, 0.5);
+	min-height: 400px;
+	background: linear-gradient(321.24deg, #4792e1 -91.81%, #4174b3 -31.53%, #363b5d 82.08%);
 	backdrop-filter: blur(27.1828px);
 	border-radius: 10px;
+	border: solid 2px rgba(197, 213, 230, 0.5);
 	display: none;
+	font-family: "Geometria";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+}
+.search__block section {
 }
 .open .search__block {
 	display: block;
 }
-.search__block:target {
+.search__project {
+	display: flex;
+	max-height: 170px;
+	width: 80%;
+	margin: 30px 0px 40px 50px;
+}
+.search__project h2 {
 	display: block;
+	width: 300px;
+	font-family: "Geometria";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	justify-content: center;
+	padding-top: 50px;
+}
+.search__item {
+	width: 300px;
+	margin: 0px 50px;
+}
+.search__subtitele h4 {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+}
+.search__line {
+	width: 300px;
+	height: 1px;
+	background: #ffffff;
+	mix-blend-mode: normal;
+	opacity: 0.4;
+}
+.search__storech {
+	width: 700px;
+	height: 1px;
+	background: #ffffff;
+	mix-blend-mode: normal;
+	opacity: 0.4;
+	margin-left: 400px;
 }
